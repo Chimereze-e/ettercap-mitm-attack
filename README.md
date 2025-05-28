@@ -35,19 +35,19 @@ This displayed MAC addresses of devices on the local network.
 
 3. Scan Network with Ettercap.
    
-Launched Ettercap GUI
+  Launched Ettercap GUI
 
-Scanned the LAN subnet and discovered 6 hosts
+  Scanned the LAN subnet and discovered 6 hosts
 
-5. Configure Targets in Ettercap
-6. 
-Target 1: Victim host 10.6.6.23
+4. Configure Targets in Ettercap.
+    
+  Target 1: Victim host 10.6.6.23
 
-Target 2: Server 10.6.6.13
+  Target 2: Server 10.6.6.13
 
 Ettercap was configured to forward all traffic between the two through my Kali machine.
 
-8. Launch ARP Spoofing via Terminal
+5. Launch ARP Spoofing via Terminal
 ```bash
 sudo ettercap -T -q -i br-internal --mitm arp /10.6.6.23// /10.6.6.13//
 ```
@@ -68,25 +68,31 @@ Opened Wireshark to inspect the .pcap file
 Verified MITM traffic and saw duplicate IP use (Kali impersonating server)
 
 
-🖼 Screenshots
+Screenshots
 
 
 ![SSH into Target](https://github.com/user-attachments/assets/cff9d7f5-e3bf-453b-9dc3-74dc4e33377a)
+
 SSH into Target Host
 
 ![Ettercap Host Scan](https://github.com/user-attachments/assets/73c70d05-c1fb-4739-9b5c-61db1704d235)
+
 Ettercap Host Scan
 
 ![Ettercap Terminal Attack](https://github.com/user-attachments/assets/96fa34ab-8040-4fae-bf2c-98257ed10f86)
+
 Ettercap Target Configuration
 
 ![ARP Spoof Confirmation](https://github.com/user-attachments/assets/ba27c771-e7b5-4604-a94e-4103ce928a89)
+
 ARP Spoof Confirmation
 
 ![ARP Cache Manipulation](https://github.com/user-attachments/assets/82468204-1199-4119-a02b-d4772f2a3373)
+
 ARP Cache Manipulation
 
 ![Wireshark Captur](https://github.com/user-attachments/assets/e4388214-58f3-4808-bddc-69e737c51100)
+
 Wireshark MITM Traffic
 
 
