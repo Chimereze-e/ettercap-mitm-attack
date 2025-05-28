@@ -66,21 +66,27 @@ Verified MITM traffic and saw duplicate IP use (Kali impersonating server)
 🖼 Screenshots
 
 ![SSH to target](https://github.com/user-attachments/assets/170911b1-1ecc-44f9-8160-bfb3006bd1fd)
+
 SSH into Target Host
 
 ![Ettercap host scan](https://github.com/user-attachments/assets/b1314106-24f4-4eef-81b3-c190c2029e33)
+
 Ettercap Host Scan
 
 ![Ettercap Terminal Attack](https://github.com/user-attachments/assets/ca5ce6cd-7032-4dfb-9788-a907616e8761)
+
 Ettercap Target Configuration
 
 ![ARP Spoof Confirmation](https://github.com/user-attachments/assets/1216c018-8c63-4a9f-a682-fbacd9dfef69)
+
 ARP Spoof Confirmation
 
 ![ARP Cache Manipulation](https://github.com/user-attachments/assets/b74cd8af-47b7-411b-9bf3-313c20cc3638)
+
 ARP Cache Manipulation
 
 ![Wireshark Capture (Duplicate IP Detected)](https://github.com/user-attachments/assets/25761666-6814-4eb1-89d8-5bc73882efe7)
+
 Wireshark MITM Traffic
 
 
