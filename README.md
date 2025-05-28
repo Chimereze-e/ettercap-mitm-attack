@@ -65,27 +65,28 @@ Verified MITM traffic and saw duplicate IP use (Kali impersonating server)
 
 🖼 Screenshots
 
-![SSH to target](https://github.com/user-attachments/assets/170911b1-1ecc-44f9-8160-bfb3006bd1fd)
+
+![SSH into Target](https://github.com/user-attachments/assets/cff9d7f5-e3bf-453b-9dc3-74dc4e33377a)
 
 SSH into Target Host
 
-![Ettercap host scan](https://github.com/user-attachments/assets/b1314106-24f4-4eef-81b3-c190c2029e33)
+![Ettercap Host Scan](https://github.com/user-attachments/assets/73c70d05-c1fb-4739-9b5c-61db1704d235)
 
 Ettercap Host Scan
 
-![Ettercap Terminal Attack](https://github.com/user-attachments/assets/ca5ce6cd-7032-4dfb-9788-a907616e8761)
+![Ettercap Terminal Attack](https://github.com/user-attachments/assets/96fa34ab-8040-4fae-bf2c-98257ed10f86)
 
 Ettercap Target Configuration
 
-![ARP Spoof Confirmation](https://github.com/user-attachments/assets/1216c018-8c63-4a9f-a682-fbacd9dfef69)
+![ARP Spoof Confirmation](https://github.com/user-attachments/assets/ba27c771-e7b5-4604-a94e-4103ce928a89)
 
 ARP Spoof Confirmation
 
-![ARP Cache Manipulation](https://github.com/user-attachments/assets/b74cd8af-47b7-411b-9bf3-313c20cc3638)
+![ARP Cache Manipulation](https://github.com/user-attachments/assets/82468204-1199-4119-a02b-d4772f2a3373)
 
 ARP Cache Manipulation
 
-![Wireshark Capture (Duplicate IP Detected)](https://github.com/user-attachments/assets/25761666-6814-4eb1-89d8-5bc73882efe7)
+![Wireshark Captur](https://github.com/user-attachments/assets/e4388214-58f3-4808-bddc-69e737c51100)
 
 Wireshark MITM Traffic
 
